@@ -8,7 +8,8 @@ Refreshing your memories and reviewing specifically: HTML, CSS, JS and Object Or
 [![](https://camo.githubusercontent.com/131c25bd172508d5f376dd7fe56283ae7fda2194/68747470733a2f2f63646e302e746e7763646e2e636f6d2f77702d636f6e74656e742f626c6f67732e6469722f312f66696c65732f323031372f30392f625563767252632d312d373936783339382e6a7067)]()
 
 
-**First things first, *fork* this repo(sitory) and *clone* it to your desktop!**
+**First things first, create a new Repl.it account if you haven't already! Here are [instructions](https://github.com/meet-projects/Y2-Seminar2020-Labs/blob/master/replit-setup.md) to help you set up!**
+**Open a new Repl.it, call it `Lab1`, and write/upload your final code there :D**
 
 ## HTML Section
 1. Create a file `hello.html`.<br/> Open the `hello.html` file using a browser (Like Chrome/Firefox), the page should be empty.<br/><br/> 
@@ -77,7 +78,7 @@ You have an idea! Why not use OOP? it's going to be super easy to do all of the 
 7. Create a new youtube video **object**, and fill in the attributes!
     - Test out all of the object's functions.
     - How would you add 495 likes?
-    - Show your neighbor!
+    - Show your partner/family members!
 
 
 ##### Great job on completing your first Lab!

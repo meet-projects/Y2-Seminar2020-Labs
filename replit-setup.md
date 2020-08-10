@@ -9,7 +9,7 @@
     1. **Environment Setup:**
         1. Click on **"+new Repl"** (Top-right): This will create a new file for you to code in!
         1. Choose "Python" as the programming language.
-        1. Name your Repl **"Day 1"**
+        1. Name your Repl **"Lab 1"**
         1. Click on "Create Repl"
             - This is how you'll be creating a new Repl.it
         1. Now you can see the **Editor** and **Console** in front of you!
@@ -20,4 +20,4 @@
 
 
 
-**Now we're done with setting up our programming environment, let's get back to our [lab](https://github.com/meet-projects/Y1-Seminar2020/intro-cs-lab.md)**
+**Now we're done with setting up our programming environment, let's get back to our [lab](https://github.com/meet-projects/Y2-Seminar2020-Labs/blob/master/Day%201,%20Session%201,%20Intro%20to%20Summer/README.md).**

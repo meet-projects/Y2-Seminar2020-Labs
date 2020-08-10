@@ -16,7 +16,7 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
 ## Instructions:
 
 1. Pair up with a partner, and draw the layout of an **MVC Map**!
-    - It can be done using a paper and pen.  
+    - It can be done using your boards.  
 
 </br>  
 

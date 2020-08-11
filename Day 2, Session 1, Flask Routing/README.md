@@ -1,44 +1,70 @@
-# Let's build our own Ebay! - Flask Routing Lab
-<br/>
-Today, we are creating <b>an awesome online shop similar to Ebay!</b>
-<br/>
+# Advanced Flask Lab
 
-In our project folder, we have a <b>'static' folder</b> which will be used for <b>css and js files</b>, and a <b>'templates' folder</b> where you'll find all of our <b>templates (html files)</b> that we are/will be using.
-<br/>
-In today's lab, you'll only work with and edit 3 templates: <b>home.html, product.html and cart.html</b>.
+## Objective: 
+In this lab, you will learn about creating routes using flask, passing variables to templates (HTML pages) and displaying them... by creating your very own Instagram page!  
 
-<br/>
+By the end of this lab, you will have your Instagram profile page look something like this:  
+
+
+
+<img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/2.2%20Day%202%2C%20Afternoon%2C%20Advanced%20Flask/AdvancedFlask-Instagram.png" width="450">
+
+
+
+
+> Before we start, make sure to go to [This Repl.it](https://repl.it/@Loai17/Advanced-Flask-Lab), fork it/copy the code to your machine in order to set up our environment for this lab.
+
+
+## Instructions:
+
+In this lab, we'll be creating our own kind of Instagram profile page!  
+We have provided your Repl.it with some HTML, CSS, and JS already, so not to worry about design; We'll be focusing on our programming skills!  
+
+1. Run `main.py`; Did everything load up correctly?
+    - Fix the incorrectly loaded content
+    - *Hint: Take a look at `index.html`, are all pictures visible? Are all scripts linked correctly?*
+
+2. In `templates` folder, you have a file called `about.html`. Link this file to a new route in `main.py`.
+    - After creating the route: `/about` for example.
+    - Link this route to the `"More about me"` button in `index.html`.
+    - Edit `about.html` to be your real background story, the reader should be able learn something new about you!
+
+3. In `main.py`, you have a variable called `image_link`, and another variable called `user_bio`:
+    - **Pass** these *two variables* to `index.html`
+    - **Replace** the first image with `image_link`
+    - **Replace** the **description** `<h1>` with `user_bio`
+    - Run `main.py`, how is it lookin' now? ;)
+    - *Feel free* to change the values of `image_link` and `user_bio` to your own image and bio! 
+        
+Now, after you're done with setting up the profile info, let's display our posts!  
+
+4. In `main.py` theres a variable called `posts`, it's a dictionary that has image links as *Keys*, and post captions as *Values*!
+    - Pass `posts` to `index.html`, and display each post correctly!
+    - *Hint: hmmm.. how can we **loop** through these posts and show them on the page?*
+    - *Feel free* to change the dictionary keys and values to create your own Instagram profile!
+
+
+##### That's so cool! You have just created your first flask application!
+##### Call an Instructor/TA to check your completed tasks
  
 
+If you have extra time, continue to the **Bonus Problems** *below*.  
+If not, make sure your code is saved in **Repl.it**!
 
-#### Don't forget to *Fork* first and then *Clone* OR, Go to Repl.it and create a new Repl.
 
-## Part 1: Home
-1. Create your first app route and link it to `home.html` in `app.py`. 
-2. Give `home.html` some life by adding a title and a link to your store page.
-    - Try to make it as much similar as possible to this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/2.1%20Day%202%2C%20Morning%2C%20Flask%20Routing/ebayHomepage.png" width="700">
-(Don't link anything yet, keep the href empty. Like: href="#" or href=" ")
+<img src="https://miro.medium.com/max/1200/1*SzN6u2U98S4RyhWo_WyaHQ.png" width="400">
 
-## Part 2: Product Page
-1. Create an another app route in `app.py` and link it to `product.html`.
-2. Update the "Product" link(s) in `home.html` according to the new app route.
-3. Give `product.html` some life by adding a title and a link linking back to your homepage.
-    - Try to make it as much similar as possible to this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/2.1%20Day%202%2C%20Morning%2C%20Flask%20Routing/ebayProduct.png" width="700">
 
-4. Add some products in `home.html` (link for reference: https://www.w3schools.com/howto/howto_css_product_card.asp )
 
-## Part 3: Cart
-1. Create an another app route in `app.py` and link it to the template `cart.html`
-2. Update the "Cart" link in `home.html` and `product.html` according to the new app route.
-3. Modify the products elements in `home.html` and link the "Add to Cart" button to the new route that you just created.
-* We will not be creating the "Add to Cart" function today, but this will help us set it up for the upcoming sessions.
-4. Fill in some content products in the cart, for preview purposes only.
-    - Try to make it as much similar as possible to this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/2.1%20Day%202%2C%20Morning%2C%20Flask%20Routing/ebayCart.png" width="700">
 
-### Bonus:
-- Add a navigation bar to all pages - and link all tabs. (if you haven't yet)
-- Add a carousel in your homepage.
-- Complete all of your pages designs, fill in the gaps of what's missing!
+## Bonus Problems: 
+1. Fill in the **Social Media** icons with accessible links!
+    - Make sure to **pass** the links variables and linking them correctly in `index.html`.
+    
+2. If you add too many posts, it'll start getting clunky and messy... try to fix it!
+    - *Hint: maybe something like, say, every 3 posts on a row? or something like that.*
+
+##### Great job on completing the bonus problems section!  
+###### Make sure your code is saved in Repl.it
+
+

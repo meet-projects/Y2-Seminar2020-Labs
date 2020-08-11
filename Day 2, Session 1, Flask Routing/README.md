@@ -1,4 +1,4 @@
-# Advanced Flask Lab
+# Flask Routing & Advanced Lab
 
 ## Objective: 
 In this lab, you will learn about creating routes using flask, passing variables to templates (HTML pages) and displaying them... by creating your very own Instagram page!  

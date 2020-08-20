@@ -19,7 +19,6 @@ In this lab, you will learn about taking and processing information, given by a 
 
 As you can see, in the [Repl.it](https://repl.it/@Loai17/Day-3-Flask-Forms-Lab) we provided above, you have a ready `main.py` (Flask app), `login.html` and `home.html` files, these will be the files you will edit this lab. Explore the project files to have a better understanding of what's going on, even try to **run** the app!  
 It should look something like this:  
-<img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersList-Forms.png" width="500">  
   
 First things first, in the top of `main.py`, you have some variables configured. Feel free to edit them according to your own preferences. The variables looks something like this:
 ```python
@@ -60,7 +59,6 @@ If you have extra time, continue to the **Bonus Problems** *below*.
 If not, make sure your code is saved in **Repl.it**!
 
 
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--O0ZYhf0U--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/AlbertoMontalesi/InspiredWebDev-Tutorials/master/screenshots/1_HTML_form.png" width="400">
 
 
 

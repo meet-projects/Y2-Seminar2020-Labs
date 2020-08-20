@@ -7,7 +7,6 @@ In this lab, you will learn about taking and processing information, given by a 
 
 
 
-<img src="https://www.powrcdn.com/images/landing_pages/html/feedback-form-display.webp" width="450">
 
 
 

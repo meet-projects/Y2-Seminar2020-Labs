@@ -8,21 +8,20 @@
 
 ## Project Plan:
 In this challenge, you will design and build a **full scale web application!** that uses one of these **APIs**:  
-- BreezoMeter
-- Twilio
-- NASA API
-- Waze
-- Clarifai
-- Israeli Open Data
-- Palestinian Open Data
+- [BreezoMeter](https://breezometer.com/products/air-quality-api)
+- [Twilio](https://www.twilio.com)
+- [NASA API](https://api.nasa.gov)
+- [Waze](https://developers.google.com/waze)
+- [Clarifai](https://www.clarifai.com)
+- [TLV Open Data](https://opendata.tel-aviv.gov.il/en/pages/home.aspx)
+- [Palestinian Open Data](http://sdg-pcbs.opendata.arcgis.com)
 
 
 
 ## Requirements:
 Final Outcome:
 - User Interactivity
-- Uses Flask
-- Databases implemented. (Try to use CRUD)
+- Uses Flask (Routing & Forms)
 - Use an API (Choose one from the provided list)
 
 ### Bonus:
@@ -35,7 +34,7 @@ Final Outcome:
 
 
 ## Why should you care?
-You learned about Front-end (HTML, CSS and JS) and Back-end (Python, Flask and SQLAlchemy). Now it’s time to put all of this knowledge combined together to the test!  
+You learned about Front-end (HTML, CSS and JS) and Back-end (Python, Flask and APIs). Now it’s time to put all of this knowledge combined together to the test!  
 The best way to practice and solidify all of these new concept in programming is to actually implement it, so this project gives you a chance to make practical use of what you’ve learned.
 This is your chance to show us what you’re passionate about using CS only, you can show off your skills and still focus on your website’s topic using your creativity!  
 
@@ -94,7 +93,7 @@ Some effective teamwork ***characteristics***:
 
 ## Storyboarding & Wireframing:
 1. Draw the storyboards and wireframe of your different pages!  
-- Can be on paper & pen or a wireframing tool of your choice (such as [NinjaMock](https://ninjamock.com/)).
+- Can be on an online wireframing tool of your choice (such as [NinjaMock](https://ninjamock.com/)).
 - For getting a color scheme, here's a [useful website](https://coolors.co/)  
 - Wireframe example:
 <img src="https://lh3.googleusercontent.com/7lqo2S5GBmY2UITQFdUeSVWR0XAche0gWqcqvkxJhdHAUCnHHDt4WfpHnhmYOqxQBsOCiFp88EMtnaNJ6uQ6TYEvvuEP2UKakQPjoQlH2ZTDeyzHfdwI1pXNQ2-xVGjlC2KAs4Z8mg" width="350">  
@@ -105,6 +104,6 @@ Some effective teamwork ***characteristics***:
 
 ## Building/Workflow:
 1. Brainstorming
-2. Storyboarding & Wireframing *(must)* + Choosing a color scheme *(optional)*
+2. Storyboarding & Wireframing *(encouraged)* + Choosing a color scheme *(optional)*
 3. Implementation (Coding + building everything together)
 

@@ -1,7 +1,7 @@
-# Using Forms with Flask
+# Using Forms with Flask - Facebook Lab
 
 ## Objective: 
-In this lab, you will learn about taking and saving information, given by a user via an HTML form!
+In this lab, you will learn about taking and processing information, given by a user via HTML forms!
 
 
 
@@ -12,41 +12,43 @@ In this lab, you will learn about taking and saving information, given by a user
 
 
 
-> Before we start, make sure to go to [This Repl.it](https://repl.it/@Loai17/Y2-Forms-Lab), fork it/copy the code to your machine in order to set up our environment for this lab.
+> Before we start, make sure to go to [This Repl.it](https://repl.it/@Loai17/Day-3-Flask-Forms-Lab), fork it/copy the code to your machine in order to set up our environment for this lab.
 
 
 ## Instructions:
 
-As you can see, in the [Repl.it](https://repl.it/@Loai17/Y2-Forms-Lab) we provided above, you have a ready `main.py` (Flask app), `model.py` and `database.py` files. Explore the project files to have a better understanding of what's going on, even try to **run** the app!  
+As you can see, in the [Repl.it](https://repl.it/@Loai17/Day-3-Flask-Forms-Lab) we provided above, you have a ready `main.py` (Flask app), `login.html` and `home.html` files, these will be the files you will edit this lab. Explore the project files to have a better understanding of what's going on, even try to **run** the app!  
 It should look something like this:  
 <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersList-Forms.png" width="500">  
+  
+First things first, in the top of `main.py`, you have some variables configured. Feel free to edit them according to your own preferences. The variables looks something like this:
+```python
+username = "llo2ay"
+password = "123"
+facebook_friends=["Loai","Yonathan","Adan", "George", "Adam", "Celina"]
+```
+  
 
-1. Add a new *route* in `main.py`, call it `signup`.. it should render an HTML page, called `signup.html`.
-    - In `signup.html`, create a form that takes:
-        1. `Full Name`
-        2. `Username`
-        3. `Password`
-        4. `Bio`
-    - The route should create a new user with the provided information, when submitting the form!
-    - Can we create 2 users with the same username? Handle these errors in advance to prevent them later.
+1. Editing the `login` *route* in `main.py`, and the **login form** in `login.html`. It should:
+    - Take input in the form, and process it in `login` *route*.
+    - You should check if it's a `POST` request:
+        - If it is, check for credentials. (if the username and password from `login.html` match the `username` and `password` variables)
+        - If they match, you should proceed to `home.html`.
+    - If it's a `GET` request. you should stay on the `login.html` page to try again.
+        - Remember: `GET` is the default method.
+    
 
-2. Add another *route* in `main.py`, call it `login`.. it should render an HTML page, called `login.html`.
-    - In `login.html`, create a form that takes:
-        1. `Username`
-        2. `Password`
-    - The route should **check** if an account with the username `Username` exists, if so, does the password match?
-    - **If** the account credentials for login are correct, the page should go to **home** to display all users information.
-    - **If not**, you should keep the user on `login` page. 
+2. Create/Define a new *route* in `main.py` and call it `home`.
+    - You should link `home` *route* to `home.html`.
+    - Make sure to replace `render_template('home.html')` with `redirect(url_for('home'))` in the `login` *route*.
+    - **Checkpoint!** Test out your website, make sure it works properly.
         
-3. Now, after you're done with setting up the `login` and `signup` features, let's add an `edit_account` route!
-    - You should create a new route, that looks something like this: `/edit/{{user_id}}`, for example - `/edit/3` would allow us to edit the account information that belongs to user with the id -> 3.
-    - The `edit_account` HTML page should have a form just like `signup.html`, so our users can have the possibility of changing/editing any piece of information they'd like! IT should look something like this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UserEdit-Forms.png" width="500">  
-    
-    - If certain attributes and information were not touched/changed, they must stay the same.  
-    - Lastly, you should add a `<button>` for each user block in `home.html`, that will take us to edit the information of each specific user! It should look something like this:  
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersListWithEdit-Forms.png" width="500">  
-    
+
+3. Using `facebook_friends` list, **pass it** to `home.html` using the `home` function/route in `main.py`.
+    - Replace the current "friends" in the page with a `for loop` that loops through this list.
+    - Costumize/Edit `facebook_friends` list and add your classmates/family members.
+    - Run your app. Show your friends/family members.
+
 
 ##### Great job!
 ##### Call an Instructor/TA to check your completed tasks
@@ -62,16 +64,11 @@ If not, make sure your code is saved in **Repl.it**!
 
 
 ## Bonus Problems: 
-1. When you **signup/login**, is it case sensitive? If not, fix these issues so your app could work properly.
+1. When you **login**, is the username case sensitive? If not, fix these issues so your app could work properly.
 
-2. If a specific user is logged in, he/she should be able to only edit **his/her** information, not everyone else's! Solve this issue.
+2. Add a dictionary of usernames and passwords, accounts that are allowed to log in to your Facebook app.
     
-3. Come up with a **Search** *functionality*, it should be a search bar (form), that searches if specific users exist! This function should be able to search users by their:
-    - Username
-    - Full name
-    - **Extra challenge**: If specific words happen to exist in their bio!
-    
-4. If you have extra time, complete yesterday's lab(s) if you haven't yet!
+3. If you have extra time, complete yesterday's (or any other) lab(s) if you haven't yet!
 
 ##### Great job on completing the bonus problems section!  
 ###### Make sure your code is saved in Repl.it

@@ -34,8 +34,10 @@ facebook_friends=["Loai","Yonathan","Adan", "George", "Adam", "Celina"]
     - You should check if it's a `POST` request:
         - If it is, check for credentials. (if the username and password from `login.html` match the `username` and `password` variables)
         - If they match, you should proceed to `home.html`.
+        - Make sure to update the `<form>` attributes (method and action) accordingly.
     - If it's a `GET` request. you should stay on the `login.html` page to try again.
         - Remember: `GET` is the default method.
+        
     
 
 2. Create/Define a new *route* in `main.py` and call it `home`.

@@ -15,6 +15,7 @@ In this challenge, you will design and build a **full scale web application!** t
 - [Clarifai](https://www.clarifai.com)
 - [TLV Open Data](https://opendata.tel-aviv.gov.il/en/pages/home.aspx)
 - [Palestinian Open Data](http://sdg-pcbs.opendata.arcgis.com)
+- [Paypal](https://developer.paypal.com/docs/api/overview/)
 
 
 

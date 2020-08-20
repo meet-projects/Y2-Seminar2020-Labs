@@ -40,7 +40,7 @@ The best way to practice and solidify all of these new concept in programming is
 This is your chance to show us what you’re passionate about using CS only, you can show off your skills and still focus on your website’s topic using your creativity!  
 
 
-## Collaboration:  
+## Teamwork:  
   
 ***Pair* Programming** is a really important skill.  
 I know sometimes it’s uncomfortable to work in groups, but as a developer, you work together all the time.  
@@ -55,14 +55,14 @@ A lot of tech companies use **pair programming** during the interview process to
 > When does this happen?  
 </br>  
 
-This happens as a result to **Effective Collaboration!**  
+This happens as a result to **Effective Teamwork!**  
 
 > The **whole** is *greater* than the **sum** of its parts.  
   
-- Turn to your partner, "what does it mean to be an effective collaborator?"  
+- Turn to your partner, "what does it mean to be an effective team member?"  
 </br>  
 
-Some effective collaboration ***characteristics***:
+Some effective teamwork ***characteristics***:
 - listening
 - humility
 - patience

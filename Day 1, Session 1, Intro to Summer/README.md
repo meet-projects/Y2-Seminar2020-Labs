@@ -12,7 +12,7 @@ Refreshing your memories and reviewing specifically: HTML, CSS, JS and Object Or
 **Open a new Repl.it, call it `Lab1`, and write/upload your final code there :D**
 
 ## HTML Section
-1. Create a file `hello.html`.<br/> Open the `hello.html` file using a browser (Like Chrome/Firefox), the page should be empty.<br/><br/> 
+1. Editing `index.html`.<br/> 
 2. Make your page stand out!<br/> To do that change it to be about a topic that you're interested in,<br/> your page should have the following (doesn't have to be in order):<br/>
 > - Add/change the title of your page  
 > - A body tag   
@@ -21,7 +21,7 @@ Refreshing your memories and reviewing specifically: HTML, CSS, JS and Object Or
 > - An h2 tag inside the body.<br/><br/>
 
 
-3. Add an image.<br/> In the same `hello.html` file, add an image related to the topic you wrote about. **Set the width to 400px**.<br/><br/>
+3. Add an image.<br/> In the same `index.html` file, add an image related to the topic you wrote about. **Set the width to 400px**.<br/><br/>
 4. Add a link.<br/>
 Add a link to the Wikipedia page about the animal or the topic you're interested in.
 <br/><br/>
@@ -38,10 +38,10 @@ A property could be: font-size, border, color, etc...<br/>
 
 ## Javascript Section 
 
-1. Create a new file `main.js` , and link it to **`hello.html`**.
-2. In **`main.js`**, define a new *function* called `changeBackgroundColor`, that takes 1 argument -> `color`
+1. Make sure that `script.js` is linked to **`index.html`**.
+2. In **`script.js`**, define a new *function* called `changeBackgroundColor`, that takes 1 argument -> `color`
     - The function should change the background color of "hello.html" to "color".
-3. Add a "button" tag in **`hello.html`** with a text that says "Change BG Color".
+3. Add a "button" tag in **`index.html`** with a text that says "Change BG Color".
     - The button has to have an `onclick` attribute, linked to the `changeBackgroundColor(color)` function.
     - Fill in the `color` argument whatever you like!
 4. Test out your button!

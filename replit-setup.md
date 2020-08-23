@@ -8,7 +8,7 @@
         1. That's it!
     1. **Environment Setup:**
         1. Click on **"+new Repl"** (Top-right): This will create a new file for you to code in!
-        1. Choose "Python" as the programming language.
+        1. Choose "HTML/CSS/JS" as the programming language.
         1. Name your Repl **"Lab 1"**
         1. Click on "Create Repl"
             - This is how you'll be creating a new Repl.it

@@ -11,7 +11,6 @@ In this challenge, you will design and build a **full scale web application!** t
 - [BreezoMeter](https://breezometer.com/products/air-quality-api)
 - [Twilio](https://www.twilio.com)
 - [NASA API](https://api.nasa.gov)
-- [Waze](https://developers.google.com/waze)
 - [Clarifai](https://www.clarifai.com)
 - [TLV Open Data](https://opendata.tel-aviv.gov.il/en/pages/home.aspx)
 - [Palestinian Open Data](http://sdg-pcbs.opendata.arcgis.com)

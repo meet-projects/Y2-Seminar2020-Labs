@@ -13,7 +13,6 @@
         1. Click on "Create Repl"
             - This is how you'll be creating a new Repl.it
         1. Now you can see the **Editor** and **Console** in front of you!
-            - You will be editing/writing your code in `main.py` file.
         1. Now you can start writing your code and running it!!!
         1. Make sure for each lab: you create a new Repl.it and call it according to the day number.
         1. We'll teach you how to submit your work later on :)

@@ -80,9 +80,6 @@ Some effective teamwork ***characteristics***:
 ### Hypothetical Projects You could do! (To get your brain running)
 + A web application that gives you live alerts of current fires in a selected area.
 + A web application that finds you the most suitable available job.
-+ A web application that handles face recognition user credentials.
-    - For example: This app provides other apps to be able to log in using face recognition!
-+ A barcode scanner application that finds and retrieves info about a product via its barcode.
 + A web application that gives you information about weather and air quality, in a specified location.
 
 
